@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jquery Yogi Learn</title>
+    <meta name="description" content="Learning Jquery">
+    <meta name="keywords" content="JQUERY, JAVASCRIPT, HTML, CSS">
+    <meta name="author" content="Yogi Arif Widodo">
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="../css/my-css-style.css">
+    <script src="../js/my-jquery-func.js"></script>
+
+</head>
+<body>
+
+    <p class="togleview">If u click on me, i will disappear</p>
+    <p class="yogi togleview">click me away</p>
+    <p class="togleview">click me too</p>
+
+    <hr>
+
+    <button class="btn-view-p">Jquery Hide</button>
+    <button class="btn-view-p1">Jquery View</button>
+    <button class="togle">Menu</button>
+    <button class="fadeIn">FadeIn Box Effect</button>
+    <button class="fadeOut">FadeOut Box Effect</button>
+    <button class="fadeToggle">FadeToggle Box Effect</button>
+    <button id="jqSlide">Jquery Slide FLIP</button>
+    <button id="bgchange">Dark Mode</button>
+    <button id="bgchangeNorm">Normal Mode</button>
+    <button id="bgchangeWhite">White Mode</button>
+    <br>
+    <div id="panel">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam hic doloribus natus voluptate, eum consequuntur tempora, dolores laborum, pariatur eaque maxime. Sequi illum aspernatur tenetur voluptates delectus debitis molestias quae.</div>
+    <br>
+    <br>
+    <div id="fade1" style="width: 80px; height: 80px; background-color: red;border-radius: 50%; display: none; position: absolute; transition: all 0.5s ease;" class="shadowNigt"></div>
+    <br>
+    <div id="fade2" style="width: 80px; height: 80px; background-color: yellow;border-radius: 50%; display: none;position: absolute;" class="shadowNigt"></div>
+    <br>
+    <div id="fade3" style="width: 80px; height: 80px; background-color: green; border-radius: 50%; display: none;position: absolute;" class="shadowNigt"></div>
+    <nav style="display: none; transition: all 0.5s ease;">
+        <ul>
+            <li>1. Yogi Arif Widodo</li>
+            <li>2. Yogi Arif Widodo</li>
+            <li>3. Yogi</li>
+        </ul>
+    </nav>
+    <div style="margin-top: 450px"></div>
+    <br>
+    <br>
+
+    <table border="2">
+        <tr>
+            <th>Company</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>scodeid</td>
+            <td>indonesia</td>
+        </tr>
+        <tr>
+            <td>scode</td>
+            <td>indo</td>
+        </tr>
+        <tr>
+            <td>code</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <h1>SELECTOR GABUNGAN</h1>
+    <hr>
+    <fieldset>
+        <legend>Kelas YOGI</legend>
+        <div class="yogi">
+            <p id="name">Yogi Arif Widodo</p>
+            <p id="umur">20 Tahun</p>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Kelas Anak</legend>
+        <div class="arif">
+            <p id="name">up</p>
+            <p id="umur">19 Tahun</p>
+        </div>
+    </fieldset>
+
+    <br><br>
+
+    <h1>FILTER CHILD</h1>
+    <hr>    
+    <p>first child, last-child, nth-child, and only-child</p>
+    <div>
+        <span>Yogi</span>
+        <span>Arif</span>
+        <span>Widodo</span>
+    </div>
+
+    <div>
+        <span>Yogi</span>
+        <span>Arif</span>
+        <span>Widodo</span>
+    </div>
+
+    <br><br>
+
+    <div class="menu-1">
+        <ul>
+            <li>Yogi</li>
+            <li>Arif</li>
+            <li>Widodo</li>
+        </ul>
+    </div>
+    <div class="menu-1">
+        <ul>
+            <li>Yogi</li>
+            <li>Arif</li>
+        </ul>
+    </div>
+    <div class="menu-1">
+        <ul>
+            <li>Yogi</li>
+            <li>Arif</li>
+            <li>Widodo</li>
+            <li>Scode</li>
+        </ul>
+    </div>
+    <br><br><br><br><br><br>
+    <div class="menu-1 v2">
+        <button>Satu</button>
+        <button>Dua</button>
+    </div>
+    <div class="menu-1 v2">
+        <button>Satu</button>
+    </div>
+    <div class="menu-1 v2">
+        <!-- code -->
+        kosong
+    </div>
+    <div class="menu-1 v2">
+        <button>Satu</button>
+        <button>Dua</button>
+        <button>Tiga</button>
+    </div>
+    <div class="menu-1 v2">
+        <button>Satu</button>
+    </div>
+
+
+    <br><br><br><br>    <br><br><br><br>
+    
+    <div>
+            <p class="has">Yogi ( didalam p )</p>
+    </div>
+
+    <div>
+        Yogi ( di luar p )
+    </div>
+
+    <div class="menu-1 v3">
+        DIV 1
+        <p class="filter">P1</p>
+        <p class="filter">P2</p>
+    </div>
+    <div class="menu-1 v3">
+        DIV 2
+        <p class="filter">P1</p>
+    </div>
+    <p class="filter">P tidak punya induk</p>
+    <br><br><br>
+    <form>
+        <input type="checkbox" name="Jquery"> Jquery
+        <br>
+        <input type="checkbox" name="YUI"> YUI
+        <br>
+        <input type="checkbox" name="Mootools"> Mootools
+        <br>
+        <br>
+        <button>Terpilih</button>
+        <div class="hasilnya"></div>
+    </form>
+
+    <br><br><br><br><br><br>
+    <h1>EVENT HANDLER</h1>
+    <hr>
+    <!-- <p id="mouseEnter">Mouse Enter</p> -->
+    <p id="eventHandler">Click or move the mouse pointer overt this paragraph</p>
+
+    <h1>DOM ELEMEN</h1>
+    <hr>
+
+    <div class="forDomFirst">
+        <p class="mudah">Belajar <span style="color: #3366ff;">Jquery</span> itu mudah </p>
+    </div>
+    <div class="forDomLast"></div>
+
+    <br>
+
+    <div>
+        <form>
+                <label for="Name" id="label-name">Name : </label>
+                <input type="text" id="name" value="JQuery" class="dom"> 
+        </form>
+    </div>
+
+    <div id="hasil" style="color: #0000ff;"></div>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <form>
+        <p>
+            <label for="name">Name</label>
+            <input type="text" class="in1"><br>
+        </p>
+        <p>
+            <label for="umur">umur</label>
+            <input type="text" class="in2"><br>
+        </p>
+    </form>
+    <button class="getform">GET</button>
+    <div id="hasilGet"></div>
+
+
+    <div style="margin-bottom: 200px"></div>
+</body>
+</html>

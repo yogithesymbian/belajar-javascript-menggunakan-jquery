@@ -1,0 +1,118 @@
+html, body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+body
+{
+    background-color: #37474f;
+    color: rgba(255, 255, 255, 0.555);
+}
+.bgnya
+{
+    background-color: rgb(0, 0, 0);
+}
+.bgnormal
+{
+    background-color: #37474f;
+}
+.bgn 
+{
+    background-color: white;
+}
+span
+{
+    color: rgb(204, 79, 79);
+}
+span.hijau
+{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+div.menu-1
+{
+    float: left;
+}
+
+div.menu-1.v2
+{
+    width: 90px;
+    margin: 12px;
+    background: rgb(160, 160, 160);
+    padding: 12px;
+}
+div.menu-1.v3
+{
+    width: 150px;
+    background: #999;
+    color: #000;
+    margin: 5px;
+}
+
+.choose
+{
+    font-weight: bold;
+    color: blue;
+    margin: 2px;
+}
+
+button
+{
+    text-decoration: none;
+    border: none;
+    padding: 12px;
+    background-color: #2e5e75;
+    color: rgba(255, 255, 255, 0.637);
+}
+
+.shadowNigt
+{
+-webkit-box-shadow: 3px 7px 29px -1px rgba(0,0,0,0.68);
+-moz-box-shadow: 3px 7px 29px -1px rgba(0,0,0,0.68);
+box-shadow: 3px 7px 29px -1px rgba(0,0,0,0.68);
+}
+#jqSlide, #panel
+{
+    text-align: center;
+    background-color: rgb(43, 45, 161);
+    border: 1px solid white;
+}
+#panel
+{
+    position: absolute;
+    padding: 50px;
+    display: none;
+}
+.warna
+{
+    background-color: black;
+}
+.warna1
+{
+    background-color: blue;
+}
+
+.line-side
+{
+    border: 3px inset rgba(75, 0, 187, 0.493);
+    margin: 4px;
+    width: 200px;
+}
+p label
+{
+    float: left;
+    width: 80px;
+}
+p input
+{
+    float: left;
+    width: 20%;
+}
+
+#hasilGet
+{
+    display: none;
+    
+}
